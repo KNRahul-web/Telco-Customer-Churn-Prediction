@@ -7,41 +7,41 @@
     Logistic Regression, Random Forest, and XGBoost. 
     SHAP was used for model interpretability.
 
-    ---
+    
 ## 🎯 Project Objective
 
 
     Predict whether a customer will churn (1) or remain retained (0) to help telecom companies reduce revenue loss through early intervention.
 
-    ---
+    
 ## 📂 Dataset
 
 
-    * 7043 customer records
-    * 24 features
-    * Target Variable: Churn
-    * 1 → Churned
-    * 0 → Retained
+* 7043 customer records
+* 24 features
+* Target Variable: Churn
+* 1 → Churned
+* 0 → Retained
 
-    ---
+    
 ## 🔎 Steps Performed
 
 
-    * Data Cleaning & Preprocessing
-    * Exploratory Data Analysis (EDA)
-    * Feature Engineering
-    * Model Training:
-    * Logistic Regression
-    * Random Forest
-    * XGBoost
-    Model Evaluation using:
-        * ROC-AUC
-        * Precision
-        * Recall
-        * F1-score
-    Model Explainability using SHAP
+* Data Cleaning & Preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Model Training:
+* Logistic Regression
+* Random Forest
+* XGBoost
+  Model Evaluation using:
+   * ROC-AUC
+   * Precision
+   * Recall
+   * F1-score
+Model Explainability using SHAP
 
-    ---
+    
 ## 📈 Model Evaluation
 
 
@@ -52,25 +52,25 @@
     Logistic Regression achieved higher Recall and F1-score, making it better aligned with business objectives. 
     Therefore, Logistic Regression was selected as the final model.
 
-    ---
+    
 ## 🔍 Key Insights
 
 
-    * Month-to-month contracts have higher churn rates
-    * Customers with lower tenure are more likely to churn
-    * Higher monthly charges increase churn probability
+* Month-to-month contracts have higher churn rates
+* Customers with lower tenure are more likely to churn
+* Higher monthly charges increase churn probability
 
-    ---
+    
 ## 🛠 Tools & Libraries
 
 
-    * Python
-    * Pandas
-    * NumPy
-    * Scikit-learn
-    * XGBoost
-    * SHAP
-    * Matplotlib / Seaborn
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* XGBoost
+* SHAP
+* Matplotlib / Seaborn
 
 
-    ---
+
